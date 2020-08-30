@@ -23,7 +23,7 @@ Checks a record reference for a specific entity type (**IsType**) and treats the
 
 Read [Understand record references and polymorphic lookups](../working-with-references.md) for a broader introduction and more details.
 
-A lookup field usually refers to records in a particular entity. Because the entity type is well established, you can access the fields of the lookup by using a simple dot notation. For example, **First( Accounts ).'Primary Contact'.'Full Name'** walks from the **Accounts** entity to the **Primary Contact** record in the **Contacts** entity and extracts the **Full Name** field.
+A lookup field usually refers to records in a particular entity. Because the entity type is well established, you can access the fields of the lookup by using a simple dot notation. For example, **First( Accounts ).'Primary Contact'.'Full Name'** walks from the **Accounts** entity to the **Primary Contact** record in the **Accounts** entity and extracts the **Full Name** field.
 
 Common Data Service also supports polymorphic lookup fields, which can refer to records from a set of entities, as in these examples.
 
